@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 body {
   margin-top: 2rem;
   margin-left: 3rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
+  font-family: "Afacad Flux";
 }
 
 nav {
@@ -98,6 +100,9 @@ nav {
 
   
 }
+.left-main{
+    margin-right: 10rem;
+}
 
 #stars-container{
     display:flex;
@@ -146,7 +151,8 @@ nav {
     border-radius: 10px;
     border: 2px solid black;
     text-align: center;
-    width: 4rem;
+    width: 3.8rem;
+    height: 3rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
@@ -158,6 +164,10 @@ nav {
     }
 }
 
+#size-guide{
+    color: gray
+}
+
 
 #size-grid{
     display: flex;
@@ -165,4 +175,43 @@ nav {
     grid-auto-flow: column;
     margin-top: 1rem;
     flex-wrap: wrap;
+}
+
+#Add-To-Cart{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #CDCDCD;
+    border: 2px solid black;
+    flex-grow: 3
+}
+
+#Add-To-Cart:hover{
+    background-color: black;
+    #add-to-cart-img{
+        
+        filter: invert(1);
+    }
+    p{
+        color:white}
+}
+
+#Cart-and-wishlist{
+    display:flex;
+}
+
+#add-to-cart-img{
+    margin-right: 1rem;
+}
+
+#add-to-wish{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    width: 3.5rem;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
+#add-to-wish-img{
+    width: 1.5rem
 }
