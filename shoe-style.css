@@ -1,125 +1,168 @@
-
-
-body{
-    margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-
+body {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
-nav{
-    border-bottom:  2px solid lightgray;
+nav {
+  border-bottom: 2px solid lightgray;
 }
 .polar-horizontal {
-    display: flex; 
-    
-    column-gap: 5px;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 15x;
-    flex-direction: row;
-    
-    
+  display: flex;
+
+  column-gap: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15x;
+  flex-direction: row;
 }
 .location-info {
-    margin-top: 1rem;
-    font-size: medium;
+  margin-top: 1rem;
+  font-size: medium;
 }
 
 .left-nav-section-container {
-    display: flex;
-    justify-content: space-evenly;
-    
-   
-    
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .right-nav-section-container {
-    display: flex;
-    justify-content: space-evenly;
-    
-    
- 
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.nav-column{
-    display: flex;
-    padding-left: 2rem;
-    padding-bottom: 3fr;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-   
+.nav-column {
+  display: flex;
+  padding-left: 2rem;
+  padding-bottom: 3fr;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
 }
-
 
 .leftnavdiv {
-    display: flex;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    font-weight: bold;
-    align-self: flex-end;
-    
+  display: flex;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  align-self: flex-end;
 }
 .rightnavdiv {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.main-img{
-    border-radius: 20px;
-}
-    
-#big-shoe{
-    height: 30rem;
-    width: 30rem;
-    border: 5px solid black;
-    margin-right: 3rem;
-
-    
+.main-img {
+  border-radius: 20px;
 }
 
-#login{
-    height: 2rem;
-    
-
-}
-.smaller-shoe-img{
-    height: 3rem;
-    width: 3rem
+#big-shoe {
+  height: 30rem;
+  width: 30rem;
+  border: 2px solid black;
+  margin-right: 3rem;
 }
 
+#login {
+  height: 2rem;
+}
+.smaller-shoe-img {
+  height: 5rem;
+  width: 5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border: 2px solid black;
+}
 
+.more-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-pictures {
+  display: flex;
+  flex-direction: row;
+}
 
-
-#main-body {
+.main-columns {
     margin-top: 2rem;
     margin-right: 3rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
-    
-}
-
-#logo{
-    height: 2rem;
-    border-radius: 100%;
-    margin-right: 1rem;
-}
-
-.logo-div{
     display: flex;
-    margin-right: 30rem;
-    align-items: center;
+    column-gap: 5px;
+    padding-top: 15x;
+    justify-content: space-evenly;
 
+  
 }
 
-#code-number{
+#stars-container{
+    display:flex;
+    }
+
+.stars{
+    size: 2rem;
+}
+
+#logo {
+  height: 2rem;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.logo-div {
+  display: flex;
+  margin-right: 20rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#code-number {
+    display: flex;
     color: lightgray;
+    justify-content: center;
+    align-items: center;
 }
 
-.right-main{
-    margin-bottom: 2rem;
+#review-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    color: gray
 }
-    
 
+#price-display{
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.size-option{
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    width: 4rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.size-option:hover{
+    background-color: black;
+    p {
+        color:white
+    }
+}
+
+
+#size-grid{
+    display: flex;
+    justify-content: start;
+    grid-auto-flow: column;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
