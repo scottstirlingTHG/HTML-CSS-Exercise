@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 body {
-  margin-top: 2rem;
-  margin-left: 3rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+ 
   font-family: "Afacad Flux";
 }
 
@@ -12,7 +12,6 @@ nav {
 }
 .polar-horizontal {
   display: flex;
-
   column-gap: 5px;
   flex-direction: row;
   justify-content: space-between;
@@ -62,8 +61,8 @@ nav {
 }
 
 #big-shoe {
-  height: 37rem;
-  width: 35rem;
+  height: 36rem;
+  width: 36rem;
   border: 2px solid black;
   
 }
@@ -71,6 +70,7 @@ nav {
 #login {
   height: 2rem;
 }
+
 .smaller-shoe-img {
   height: 5rem;
   width: 5rem;
@@ -95,12 +95,17 @@ nav {
     margin-top: 2rem;
    margin-right: 9rem;
     display: flex;
-    
-
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   
-}
 .left-main{
-    margin-right: 10rem;
+    margin-right: 2.5rem;
+}
+
+.right-main{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #stars-container{
@@ -181,8 +186,9 @@ nav {
     display: flex;
     border-radius: 10px;
     justify-content: center;
+    border: none;
     background-color: #CDCDCD;
-    flex-grow: 3
+    flex-grow: 2
 }
 
 #Add-To-Cart:hover{
@@ -206,6 +212,7 @@ nav {
 
 #add-to-wish{
     width: 3.5rem;
+    border:none;
     border-radius: 15px;
     margin-left: 1rem;
     background-color: #CDCDCD;;
@@ -229,4 +236,15 @@ nav {
     display:flex;
     margin-right: 1rem
 }
+
+@media screen and (max-width:300px){
+  #main-column{
+    display:block
+  }
+  nav {
+    display:block
+  }
+}
+
+
  
