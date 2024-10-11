@@ -236,15 +236,3 @@ nav {
     display:flex;
     margin-right: 1rem
 }
-
-@media screen and (max-width:300px){
-  #main-column{
-    display:block
-  }
-  nav {
-    display:block
-  }
-}
-
-
- 
