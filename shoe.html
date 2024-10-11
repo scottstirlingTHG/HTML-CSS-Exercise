@@ -11,26 +11,26 @@
     
     <nav class="polar-horizontal">
         <div class="left-nav-section-container">
-            <div class="leftnavdiv">Women</div>
-            <div class="leftnavdiv">Men</div>
-            <div class="leftnavdiv">Kids</div>
-            <div class="leftnavdiv">Sports</div>
-            <div class="leftnavdiv">Brands</div>
-            <div class="leftnavdiv">New</div>
-            <div class="leftnavdiv">Sale</div>
+            <button class="leftnavbutton">Women</button>
+            <button class="leftnavbutton">Men</button>
+            <button class="leftnavbutton">Kids</button>
+            <button class="leftnavbutton">Sports</button>
+            <button class="leftnavbutton">Brands</button>
+            <button class="leftnavbutton">New</button>
+            <button class="leftnavbutton">Sale</button>
         </div>
         <div class="right-nav-section-container">
-            <div class="nav-column">
+            <button class="nav-column">
                 <div class="rightnavdiv"><img src="bag.svg" alt="A picture of a bag indicating cart"/></div> 
                 <div class="rightnavdiv">Cart</div>
-            </div>
-            <div class="nav-column">
+            </button>
+            <button class="nav-column">
                 <div class="rightnavdiv"><img src="heart.svg" alt="A picture of a heart indicating wishlist"/></div> 
                 <div class="rightnavdiv">Wishlist</div>
-            </div>
-            <div class="nav-column">
+            </button>
+            <button class="nav-column">
             <div class="rightnavdiv"><img id="login" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQdztTDcpZ2pFqwWDYwSXbvZq5nzJYg5cn8w&s" alt="A silhouette of a person to take you tologin/signup"></div>
-            </div>
+            </button>
         </div>
     </nav>
     <div>
@@ -43,12 +43,12 @@
     <div id="main-body">
         <div class="main-columns">
             <div class="left-main">
-            <img id="big-shoe" class="main-img" src="image1.avif" alt="picture of cream coloured Women's running shoe from the right"/>
-            <div class = "small-pictures">
-                <img class="smaller-shoe-img" src="image2.avif" alt="looking at the shoe from the top right of the shoe"/>
-                <img class="smaller-shoe-img" src="image3.avif" alt="looking at the shoe from the top right of the shoe"/>
-                <img class="smaller-shoe-img" src="image4.avif" alt="looking at the shoe from the top right of the shoe"/>
-                <img class="smaller-shoe-img" src="image5.avif" alt="looking at the shoe from the top right of the shoe"/>
+                <img id="big-shoe" class="main-img" src="image1.avif" alt="picture of cream coloured Women's running shoe from the right"/>
+                <div class = "small-pictures">
+                    <img class="smaller-shoe-img" src="image2.avif" alt="looking at the shoe from the top right of the shoe"/>
+                    <img class="smaller-shoe-img" src="image3.avif" alt="looking at the shoe from the top right of the shoe"/>
+                    <img class="smaller-shoe-img" src="image4.avif" alt="looking at the shoe from the top right of the shoe"/>
+                    <img class="smaller-shoe-img" src="image5.avif" alt="looking at the shoe from the top right of the shoe"/>
                 <div class="smaller-shoe-img more-images">+ 4 more</div>
             </div>
             </div>
@@ -69,24 +69,30 @@
             <div ><h1 id="price-display">£130.00</h1></div>
             <div><Strong>Size</Strong> &middot; UK Women</div>
             <div id="size-grid">
-                <div class="size-option"><p>3</p></div>
-                <div class="size-option"><p>4</p></div>
-                <div class="size-option"><p>4.5</p></div>
-                <div class="size-option"><p>5</p></div>
-                <div class="size-option"><p>5.5</p></div>
-                <div class="size-option"><p>6</p></div>
-                <div class="size-option"><p>6.5</p></div>
-                <div class="size-option"><p>7</p></div>
-                <div class="size-option"><p>8</p></div>
+                <button class="size-option"><p>3</p></button>
+                <button class="size-option"><p>4</p></button>
+                <button class="size-option"><p>4.5</p></button>
+                <button class="size-option"><p>5</p></button>
+                <button class="size-option"><p>5.5</p></button>
+                <button class="size-option"><p>6</p></button>
+                <button class="size-option"><p>6.5</p></button>
+                <button class="size-option"><p>7</p></button>
+                <button class="size-option"><p>8</p></button>
             </div>
             <p id="size-guide">Size Guide</p>
             <div id="Cart-and-wishlist">
-                <div id="Add-To-Cart">
-                    <img id="add-to-cart-img" src="bag.svg"alt=" Small back signalling to customer you can add to cart clicking this button" /> <p>Add to Cart</p>
-                </div>
-                <div id="add-to-wish">
+                <button id="Add-To-Cart">
+                    <img id="add-to-cart-img" src="bag.svg"alt=" Small back signalling to customer you can add to cart clicking this button" /> 
+                    <p>Add to Cart</p>
+                </button>
+                <button id="add-to-wish">
                     <img id="add-to-wish-img" src="heart.svg"alt=" Small back signalling to customer you can add to wishlist clicking this button" />
-                </div>
+                </button>
+            </div>  
+            <div id="delivery-section">
+                <img id="truck-img" src="truck.svg" alt="small image of a truck indicating the following sentence is about delivery">
+                <p id="free-delivery-info">Free delivery on orders over £30</p>
+            </div>  
         </div>
         
     </div>

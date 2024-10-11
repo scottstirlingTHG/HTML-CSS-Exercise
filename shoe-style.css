@@ -27,6 +27,7 @@ nav {
 .left-nav-section-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .right-nav-section-container {
@@ -35,20 +36,21 @@ nav {
 }
 
 .nav-column {
-  display: flex;
-  padding-left: 2rem;
+        padding-left: 2rem;
   padding-bottom: 3fr;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
+  background-color: white;
+  border: none;
+  
 }
 
-.leftnavdiv {
-  display: flex;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-  font-weight: bold;
-  align-self: flex-end;
+.leftnavbutton {
+    background-color: white;
+    border: none;
+    display: flex;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    align-self: flex-end;
 }
 .rightnavdiv {
   display: flex;
@@ -60,10 +62,10 @@ nav {
 }
 
 #big-shoe {
-  height: 30rem;
-  width: 30rem;
+  height: 37rem;
+  width: 35rem;
   border: 2px solid black;
-  margin-right: 3rem;
+  
 }
 
 #login {
@@ -72,8 +74,8 @@ nav {
 .smaller-shoe-img {
   height: 5rem;
   width: 5rem;
+  margin: auto;
   margin-top: 1rem;
-  margin-right: 1rem;
   border-radius: 10px;
   border: 2px solid black;
 }
@@ -82,21 +84,18 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .small-pictures {
   display: flex;
-  flex-direction: row;
+  
 }
 
 .main-columns {
     margin-top: 2rem;
-    margin-right: 3rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
+   margin-right: 9rem;
     display: flex;
-    column-gap: 5px;
-    padding-top: 15x;
-    justify-content: space-evenly;
+    
 
   
 }
@@ -148,6 +147,7 @@ nav {
 }
 
 .size-option{
+    background-color: white;
     border-radius: 10px;
     border: 2px solid black;
     text-align: center;
@@ -155,6 +155,7 @@ nav {
     height: 3rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    
 }
 
 .size-option:hover{
@@ -171,10 +172,9 @@ nav {
 
 #size-grid{
     display: flex;
-    justify-content: start;
-    grid-auto-flow: column;
+    flex-wrap: wrap ;
     margin-top: 1rem;
-    flex-wrap: wrap;
+    
 }
 
 #Add-To-Cart{
@@ -182,7 +182,6 @@ nav {
     border-radius: 10px;
     justify-content: center;
     background-color: #CDCDCD;
-    border: 2px solid black;
     flex-grow: 3
 }
 
@@ -194,7 +193,7 @@ nav {
     }
     p{
         color:white}
-}
+    }
 
 #Cart-and-wishlist{
     display:flex;
@@ -202,16 +201,32 @@ nav {
 
 #add-to-cart-img{
     margin-right: 1rem;
+    margin-top: 0.3rem;
 }
 
 #add-to-wish{
-    display:flex;
-    align-content: center;
-    justify-content: center;
     width: 3.5rem;
     border-radius: 15px;
     margin-left: 1rem;
+    background-color: #CDCDCD;;
 }
 #add-to-wish-img{
     width: 1.5rem
 }
+#add-to-wish:hover{
+    background-color: lightcoral;
+    #add-to-wish-img{
+        filter: invert(1)
+    }
+}
+
+
+#truck-img{
+    margin-right: 1rem;
+}
+
+#delivery-section{
+    display:flex;
+    margin-right: 1rem
+}
+ 
